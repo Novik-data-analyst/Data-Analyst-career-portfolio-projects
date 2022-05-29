@@ -1,21 +1,20 @@
-# Прогнозирование вероятности оттока пользователей для фитнес-центров
+# Predicting fitness club client chrurn probability.
 
+## Data
 
-## Данные
+Last period client churn data:
+'gender' — gender;
+'Near_Location' — work or residence in the area near fitness center;
+'Partner' — empoyee works in one of the company-partner that have discounts;
+'Promo_friends' — first registration was due to activity called 'bring a friend';
+'Phone' — does client gave us his phone number;
+'Age' — age;
+'Lifetime' — lifetime from first registration at fitness club (months).
+'Churn' - churn factor ( yes/no)
 
-Данные клиента за предыдущий до проверки факта оттока:
-'gender' — пол;
-'Near_Location' — проживание или работа в районе, где находится фитнес-центр;
-'Partner' — сотрудник компании-партнёра клуба (сотрудничество с компаниями, чьи сотрудники могут получать скидки на абонемент — в таком случае фитнес-центр хранит информацию о работодателе клиента);
-Promo_friends — факт первоначальной записи в рамках акции «приведи друга» (использовал промо-код от знакомого при оплате первого абонемента);
-'Phone' — наличие контактного телефона;
-'Age' — возраст;
-'Lifetime' — время с момента первого обращения в фитнес-центр (в месяцах).
-'Churn' - факт оттока клиента
+## Task
 
-## Задача
+Based on client database, we need to predict churn probability for every client in next month, make client portrait with clusterization.  
 
-На основе данных о посетителях сети фитнес-центров спрогнозировать вероятность оттока для каждого клиента в следующем месяце, сформировать с помощью кластеризации портреты пользователей
-
-## Используемые библиотеки
-*pandas* *Scikit-learn* *Matplotlib* *Seaborn* *ML (Machine Learning)* *классификация* *кластеризация*
+## Used skills
+*pandas* *Scikit-learn* *Matplotlib* *Seaborn* *ML (Machine Learning)* *classificationn* *clusterization*
