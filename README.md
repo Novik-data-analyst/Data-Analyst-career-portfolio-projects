@@ -1,11 +1,13 @@
 # Data Analyst graduate student repository
 
+Practical experience in various spheres such as finance, marketing, product analysis.
+Graduation diploma : [link](https://www.dropbox.com/s/u91j52qh0w1l5ll/Diploma%20number.pdf?dl=0) 
+
 ## Project summary
 
 This projects were complited during Data Analyst educational program by Yandex Practicum. 
-Full project list could be updated for specifiс means.
+Please reach out to me at aleknv@gmail.com if you have and questions or open job opportunities. 
 
-| Project name | Description | Used skills | 
-| :---------------------- | :---------------------- | :---------------------- |
-| [Client reliability research](https://github.com/Aleknv/yandex-praktikum-projects/tree/main/Credit%20Scoring ) | Изучение зависимости различных факторов кредитополучателя (возраст, образование, семейное положение) на возращаемость кредита.| *pandas* |
-| [Исследование надежности заемщиков](**ccылка**) | Изучение зависимости различных факторов кредитополучателя (возраст, образование, семейное положение) на возращаемость кредита.| *pandas* |
+| Project name | Description | Anaysis area | Used skills | 
+| :---------------------- | :---------------------- | :---------------------- |:---------------------- |
+| [Client reliability research](https://github.com/Aleknv/yandex-praktikum-projects/tree/main/Credit%20Scoring ) | Based on clients payment history, detetmine, whether martial status and number of kids affect on-time loan payoff.  | Banking, finance | *pandas* , *PyMystem3* , *python*, *lemmatization* , *ETL* |
