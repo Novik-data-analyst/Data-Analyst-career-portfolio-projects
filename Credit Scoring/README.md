@@ -19,5 +19,6 @@ We had further information on bank clients:
 
 We needed to determine, whether martial status and number of kids affect on-time credit payoff. 
 
-## Используемые библиотеки
-*pandas*
+## Used skills and libraries
+*pandas* , *PyMystem3* , *python*, *lemmatization* , *ETL* 
+
