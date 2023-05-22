@@ -1,23 +1,23 @@
-# Исследование надежности заемщиков
+# Credit reliability research
 
 
-## Данные
+## Data
 
-В наличии были следующие данные о клиентах банка:
-- количество детей в семье
-- общий трудовой стаж в днях
-- возраст клиента в годах
-- уровень образования клиента
-- пол клиента
-- семейное положение
-- тип занятости
-- имел ли клиент задолженность по возврату кредитов
-- ежемесячный доход
--  цель получения кредита
+We had further information on bank clients:
+- household kids amount
+- seniority in days
+- clients age in days
+- highest degree client achieved
+- clients gender
+- martial status
+- type of employment
+- did customer had past-due payments
+- monthly income
+- loan purpose
 
-## Задача
+## Task
 
-Нужно разобраться, влияет ли семейное положение и количество детей клиента на факт погашения кредита в срок. 
+We needed to determine, whether martial status and number of kids affect on-time credit payoff. 
 
 ## Используемые библиотеки
 *pandas*
