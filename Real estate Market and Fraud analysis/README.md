@@ -47,5 +47,5 @@ Conduct exploratory data analysis and perform instructions:
 8) Determine which area is considered the city center. Create a column with the distance to the center in kilometers, rounded to whole values.
 
 ## Used skills and libraries
-*pandas* , *PyMystem3* , *python*, *lemmatization* , *ETL* 
+*Matplotlib* , *Pandas* , *Python* , *Data Visualization* , *Exploratory Data Analysis* , *Data Preprocessing*
 
