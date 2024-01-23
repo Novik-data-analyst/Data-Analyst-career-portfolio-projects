@@ -1,4 +1,4 @@
-# Project 3: Telecom Tariff Analysis
+# Portfolio Project 3: Telecom Tariff Analysis
 
 ## Project Overview
 - **Industry:** Telecom
