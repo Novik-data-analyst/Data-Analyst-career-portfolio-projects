@@ -1,51 +1,43 @@
-# Researching apartment listings
+# Portfolio Project  2: Real Estate Market Analysis - Apartment Sales in St. Petersburg
 
-## Task
+## Project Overview
+- **Industries:** Internet Services, Classified Platforms
+- **Roles:** Marketing Analyst, Fraud Analyst, Data Analyst
+- **Project Objectives:** Utilize data from the Yandex.Real Estate service to determine the market value of properties and typical parameters of apartments.
 
-From the dataset of archived ads for the sale of apartments in St. Petersburg and nearby area, we need to determine the market value of real estate properties. 
+## Keywords
+- Marketing Analyst, Fraud Analyst, Fraud Analyst, Data Analyst, Analyst
+- Data preprocessing, Histogram, Boxplot, Scatter matrix, Categorization, Scatterplot, Fraud Monitoring
 
-We need to establish the parameters to build an automated system that detects anomalies and fraudulent activity.
+## Skills and Tools
+- Python, Pandas, Matplotlib, Exploratory Data Analysis, Data Visualization, Data preprocessing.
 
-For each apartment listing, there are two types of data available. The first type is provided by the user, and the second type is automatically generated based on cartographic data.  
+## Project Description
+The project involves analyzing data from the Yandex.Real Estate service to understand the market value of different types of properties and the typical parameters of apartments based on their proximity to the city center. Key tasks and steps include:
 
+1. **Data Collection:**
+   - Extracted relevant information from the Yandex.Real Estate service dataset.
 
-## Data Description
+2. **Data Preprocessing:**
+   - Conducted data preprocessing to clean and enhance the dataset.
 
-- airports_nearest - distance to the nearest airport in meters (m)
-- balcony - number of balconies
-- ceiling_height - ceiling height in meters (m)
-- cityCenters_nearest - distance to the city center in meters (m)
-- days_exposition - number of days the listing was published (from publication to removal)
-- first_day_exposition - publication date
-- floor - floor number
-- floors_total - total number of floors in the building
-- is_apartment - apartment (boolean type)
-- kitchen_area - kitchen area in square meters (m²)
-- last_price - price at the time of removal from publication
-- living_area - living area in square meters (m²)
-- locality_name - locality name
-- open_plan - open floor plan (boolean type)
-- parks_around3000 - number of parks within a 3 km radius
-- parks_nearest - distance to the nearest park in meters (m)
-- ponds_around3000 - number of ponds within a 3 km radius
-- ponds_nearest - distance to the nearest pond in meters (m)
-- rooms - number of rooms
-- studio - studio apartment (boolean type)
-- total_area - total area of the apartment in square meters (m²)
-- total_images - number of photographs of the apartment in the listing.
+3. **Feature Engineering:**
+   - Added new features to enrich the dataset.
 
-## Project perfor plan
-Conduct exploratory data analysis and perform instructions:
+4. **Exploratory Data Analysis:**
+   - Built histograms, boxplots, and scatter plots to visualize and understand the data.
 
-1) Study the following parameters: area, price, number of rooms, ceiling height. Create histograms for each parameter.
-2) Study the time it takes to sell an apartment. Create a histogram. Calculate the mean and median. Describe how long a typical sale usually takes. When can a sale be considered very fast or unusually long?
-3) Remove rare and outlier values. Describe any peculiarities you discovered.
-4) Check which factors have the greatest impact on the price of an apartment? Investigate whether the price depends on the area, number of rooms, or distance from the city center.
-5) Study the dependency of the price on the floor location: first, last, or other. Also, examine the dependence on the listing date: day of the week, month, and year.
-6) Select the 10 localities with the highest number of listings. Calculate the average price per square meter in these localities. Identify the localities with the highest and lowest housing prices. This information can be found in the locality_name column.
-7) Examine the apartment listings: for each apartment, there is information about the distance to the city center. Select apartments in St. Petersburg (locality_name).
-8) Determine which area is considered the city center. Create a column with the distance to the center in kilometers, rounded to whole values.
+5. **Market Value Determination:**
+   - Determined the market value of different types of properties.
 
-## Used skills and libraries
-*Matplotlib* , *Pandas* , *Python* , *Data Visualization* , *Exploratory Data Analysis* , *Data Preprocessing*
+6. **Typical Apartment Parameters:**
+   - Identified typical parameters of apartments based on their distance from the city center.
+
+## Tools Used
+- **Programming Language:** Python
+- **Libraries:** Pandas, Matplotlib
+- **Techniques:** Exploratory Data Analysis, Data preprocessing, Visualization
+
+## Conclusion
+The project provides insights into the real estate market in St. Petersburg, focusing on market values and typical apartment parameters. Data preprocessing and exploratory data analysis techniques are employed to enhance the understanding of the dataset, and visualizations help convey key findings effectively.
 
